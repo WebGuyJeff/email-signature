@@ -9,47 +9,14 @@ Preview the signature [here](https://bigupjeff.github.io/email-signature/email-s
 
 
 
-
-
-Jefferson Real = [
-	'Role' 	  => 'Freelance Web Developer'
-	'Website' => 'bigupweb.uk'
-	'Social'  => [
-		'Codepen'
-		'Instagram'
-		'Facebook'
-	]
-]
-
-
 PHP
 
-$Jefferson_Real = [
+Jefferson_Real = [
 	'Freelance Web Developer',
 	'bigupweb.uk',
-	'Follow' => [
+	[
 		'Codepen',
 		'Instagram',
 		'Facebook'
 	]
 ]
-
-Jefferson_Real = {
-	0:'Freelance Web Developer',
-	1:'bigupweb.uk',
-	'Follow':{
-		0:'Codepen',
-		1:'Instagram',
-		2:'Facebook'
-	}
-};
-
-JeffersonReal(
-	'Freelance Web Developer',
-	'bigupweb.uk',
-	Follow = [
-		'Codepen',
-		'Instagram',
-		'Facebook'
-	]
-){};
